@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Application-Module1">
+	<listeners>
+	<listener class-name="utilities.ExtentReportManager"/>
+	</listeners>
+
+    <test name="Regression">
+         <classes>
+             <class name="testScripts.loginTest"/>
+             <class name="testScripts.homePageTest"/>
+             <class name="testScripts.adminTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
